@@ -14,7 +14,7 @@ class jagged{
 		a[i][j] = count++;	
 	 }
 	}
-
+	System.out.print("The Length of Array ", a.length);
 	for(int i =0; i<a.length;i++){
 	 for(int j =0; j<a[i].length;j++){
 		System.out.print(a[i][j]); 
